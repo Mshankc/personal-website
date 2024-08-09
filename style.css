@@ -1,0 +1,44 @@
+body {
+    background-color: #F0F0F0;
+    padding: 0px;
+    margin: 0px;
+    cursor: default;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Navigation Bar */
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.navbar li {
+    margin-right: 8px;
+    color: black
+}
+
+.navbar li:hover {
+    scale: 1.1;
+}
+
+.navbar p {
+    position: absolute;
+    left: 8px;
+    top: 0px;
+}
+
+hr {
+    color: rgba(0, 0, 0, 0.651);
+}
+
+/* Top Content */
+
+.intro {
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
