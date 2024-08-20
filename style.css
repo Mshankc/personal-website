@@ -72,7 +72,6 @@ hr {
     right: 1%;
     top: 10%;
     margin-right: 100px;
-    z-index:2;
 }
 
 .code-image img {
@@ -86,4 +85,11 @@ hr {
     color: blue;
     width: 100%;
     z-index: -2;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
 }
