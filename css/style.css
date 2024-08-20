@@ -1,95 +1,76 @@
 body {
-    background-color: rgb(33, 33, 33);
-    padding: 0px;
-    margin: 0px;
-    cursor: default;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Navigation Bar */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
 
-.navbar ul {
-    display: flex;
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
     list-style: none;
-    justify-content: end;
-    margin-right: 10px;
-    position: fixed;
-    right: 10px;
-    top: 10px;
 }
 
-.navbar li {
-    margin-right: 8px;
-    color: white;
-    font-size: 14px;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.navbar li:hover {
-    color: yellow;
-}
-
-.navbar p {
-    color: white;
-    position: absolute;
-    left: 12px;
-    top: 2px;
-    font-size: 14px;
-}
-
-hr {
-    color: white;
-}
-
-/* Intro */
-
-.intro {
-    color: white;
-    position: relative;
-    font-size: 30px;
-    margin-left: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600;
-}
-
-.intro-2 {
-    font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgba(255, 255, 255, 0.765);
-    width: 700px;
-    text-align: justify;
-}
-
-.dot {
-    color: yellow;
-    position: absolute;
-    left: auto;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.code-image {
-    position: absolute;
-    right: 1%;
-    top: 10%;
-    margin-right: 100px;
-}
-
-.code-image img {
-    width: 400px;
-    height: 400px;
-}
-
-.test {
-    height: 1000px;
-    background-color: yellow;
-    color: blue;
-    width: 100%;
-    z-index: -2;
-}
-a{
-    color: white;
+nav ul li a {
+    color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
-a:hover{
-    color: yellow;
+
+section {
+    padding: 20px 0;
+    background: #fff;
+    margin: 20px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
 }
